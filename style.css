@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+/* 2 ta container va item ga umumiy xossalr qismi */
+.parent {
+    height: 100vh;
+    gap: 50px;
+    font-family: sans-serif;
+    font-weight: bold;
+    background-color: #f8e8a0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.main_container {
+    width: 400px;
+    height:300px;
+    padding: 15px;
+    border: 2px solid rgb(148, 181, 172);
+    background-color: #d1e7ff;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.item {
+    width: 20%;
+    padding: 20px;
+    background-color: rgb(233, 199, 192);
+    border: 2px solid rgb(234, 160, 150);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box_1 {
+  align-self:flex-start;  
+}
+.box_2 {
+    align-self: center;
+}
+.box_3 {
+    align-self: flex-end;
+}
+
+
+/* har bir containerga alohida alohida xossalar qismi */
+.ex_container {
+    flex-direction: column;
+}
+
+.ey_container {
+    flex-direction: row-reverse;
+}
